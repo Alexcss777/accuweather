@@ -1,3 +1,4 @@
+//llamadas al api
 export async function getForecast(){
     var API_KEY='PIAcz5bZ3LStSpLy1GsG10hXdqdQcSD3';
     const res='http://dataservice.accuweather.com/forecasts/v1/daily/5day/241912?apikey='+API_KEY;
